@@ -4,12 +4,26 @@ student:
   email: 'first_one@fcsn.org'
   cell_phone: 925-322-9999
   home_phone: 925-322-9998
-  address_line_1: My address line 1
-  address_line_2: My address line 2
-  city: my_city
-  state: my_state
+  address_line_1: Student address line 1
+  address_line_2: Student address line 2
+  city: student_city
+  state: student_state
   postal_code: 95014
   work_phone: 925-322-9995
   last_name: Metz
   first_name: Student
   name: Student Metz
+
+user:
+  email: 'first_one@fcsn.org'
+  cell_phone: 925-322-1111
+  home_phone: 925-322-1112
+  address_line_1: User Addr Line1
+  address_line_2: User Addr Line2
+  city: user_city
+  state: user_state
+  postal_code: 95015
+  work_phone: 925-322-1113
+  last_name: Metz
+  first_name: Adult
+  name: Adult Metz
