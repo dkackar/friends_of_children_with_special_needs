@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+simple:
+  email: 'first_one@fcsn.org'
+  cell_phone: 925-322-9999
+  home_phone: 925-322-9998
+  address_line_1: My address line 1
+  address_line_2: My address line 2
+  city: my_city
+  state: my_state
+  postal_code: 95014
+  work_phone: 925-322-9995
+  last_name: Drump
+  first_name: Why
+  name: Why Drump
