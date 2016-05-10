@@ -5,4 +5,5 @@ class Course < ActiveRecord::Base
   belongs_to :coordinator, class_name: "User", foreign_key: "coordinator_id"
 
   has_many :course_dates
+  has_many :course_times
 end
