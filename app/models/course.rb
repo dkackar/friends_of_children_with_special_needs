@@ -3,4 +3,6 @@ class Course < ActiveRecord::Base
 
   belongs_to :instructor, class_name: "User", foreign_key: "instructor_id"
   belongs_to :coordinator, class_name: "User", foreign_key: "coordinator_id"
+
+  has_many :course_dates
 end
