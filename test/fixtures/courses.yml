@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+active:
+  name: Art class
+  description: Best art class eva!!!
+  location: White House
+  registration_start: 2015-05-10 12:53:24
+  registration_end: 2025-03-10 12:53:24
+  instructor_id: 1
+  coordinator_id: 1
+  fees_in_cents: 1000
+  comments: Please bring your cameras with you. You will want a picture of the White House
+  lowest_age: 1
+  highest_age: 100
+
+expired:
+  name: Expired art class
+  description: Used to be the best art class eva!!!
+  location: White House
+  registration_start: 2015-05-10 12:53:24
+  registration_end: 2015-09-10 12:53:24
+  instructor_id: 1
+  coordinator_id: 1
+  fees_in_cents: 1000
+  comments: You can no longer register for this class
+  lowest_age: 1
+  highest_age: 100

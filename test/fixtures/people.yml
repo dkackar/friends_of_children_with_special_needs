@@ -1,7 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 student:
-  email: 'first_one@fcsn.org'
+  email: first_one@fcsn.org
   cell_phone: 925-322-9999
   home_phone: 925-322-9998
   address_line_1: Student address line 1
@@ -15,7 +15,7 @@ student:
   name: Student Metz
 
 user:
-  email: 'first_one@fcsn.org'
+  email: first_one@fcsn.org
   cell_phone: 925-322-1111
   home_phone: 925-322-1112
   address_line_1: User Addr Line1
