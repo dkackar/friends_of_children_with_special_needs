@@ -11,14 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160510174806) do
-
-  create_table "class_signups", force: :cascade do |t|
-    t.text     "signature"
-    t.boolean  "consent"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
+ActiveRecord::Schema.define(version: 20160510181230) do
 
   create_table "people", force: :cascade do |t|
     t.string   "email"
@@ -38,15 +31,15 @@ ActiveRecord::Schema.define(version: 20160510174806) do
   end
 
   create_table "students", force: :cascade do |t|
-    t.string   "name"
+    t.integer  "person_id"
+    t.string   "allergies"
     t.date     "birthday"
     t.string   "gender"
-    t.text     "diagnosis"
-    t.text     "allergies"
-    t.text     "special_talents"
+    t.string   "diagnosis"
+    t.string   "talents"
+    t.text     "comment"
     t.boolean  "behavior_intervention_plan"
     t.boolean  "one_on_one_aide"
-    t.text     "additional_info"
     t.datetime "created_at",                 null: false
     t.datetime "updated_at",                 null: false
   end

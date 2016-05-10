@@ -1,8 +1,8 @@
 require File.expand_path("../../test_helper", __FILE__)
 
 class PersonTest < ActiveSupport::TestCase
-  test 'should create a valid person' do
-    person = people(:simple)
+  test 'should create a valid student' do
+    person = people(:student)
     assert person.valid?
   end
 end
