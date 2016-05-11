@@ -7,14 +7,14 @@ The site is built with [Ruby](https://www.ruby-lang.org) on [Rails](http://rubyo
 
 * If you need to install Ruby, instructions can be found on the [Ruby download page](https://www.ruby-lang.org/en/downloads/). Install the version matching .ruby-version
 * If you need to install Bundler, run `gem install bundler`
-* Clone the [github repo](git@github.com:bamohan/class_registrations.git)
+* Clone the [github repo](git@github.com:bamohan/friends_of_children_with_special_needs.git)
 * `cd` into the project folder and run `bundle install`
 
 ##### Populating the database and running the site
 * Run `rake db:create`, `rake db:migrate` and `rake db:seed`.
 * To load the server, run `rails s`.
-* Optional: Start [guard](https://github.com/guard/guard) by running `bundle exec guard`. Code changes are detected automatically by guard and relevant tests are run
-* Navigate to `localhost:3000`. To login, use `?` and `?`
+* run `rake test` to run tests
+* Navigate to `localhost:3000`. To login use ? and ?
 
 #### Troubleshooting
 
