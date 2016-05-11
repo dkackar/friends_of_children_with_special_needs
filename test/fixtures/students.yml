@@ -1,0 +1,12 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+valid_student:
+  person: student_person
+  allergies: Nuts and mean people
+  birthday: 2006-05-03
+  gender: Female
+  diagnosis: ADD
+  talents: Loves to sing and swim
+  comment: Gets agitated when there are mean people in the room
+  behavior_intervention_plan: false
+  one_on_one_aide: true
