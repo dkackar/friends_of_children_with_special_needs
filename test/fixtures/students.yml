@@ -1,6 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-student_one:
+valid_student:
   person: student_person
   allergies: Nuts and mean people
   birthday: 2006-05-03

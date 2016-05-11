@@ -1,5 +1,5 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-emegency_contact_one:
+valid_emegency_contact:
   person: user_person
-  student: student_one
+  student: valid_student

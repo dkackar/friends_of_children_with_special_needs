@@ -6,4 +6,7 @@ class Course < ActiveRecord::Base
 
   has_many :course_dates
   has_many :course_times
+
+  has_many :registrations
+  has_many :students, through: :registrations
 end

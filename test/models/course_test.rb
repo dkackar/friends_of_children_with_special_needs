@@ -6,8 +6,8 @@ class CourseTest < ActiveSupport::TestCase
     @course = courses(:active)
     @course.instructor = users(:instructor)
     @course.coordinator = users(:coordinator)
-    @course.course_dates = [course_dates(:course_date_one)]
-    @course.course_times = [course_times(:course_time_one)]
+    @course.course_dates = [course_dates(:valid_course_date)]
+    @course.course_times = [course_times(:valid_course_time)]
     @course.save
     @course.reload
   end

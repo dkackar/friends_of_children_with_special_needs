@@ -1,5 +1,7 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-valid_course_date:
+valid_registration:
   course: active
-  date: 2015-05-10
+  student: valid_student
+  signature_svg: long svg value
+  photo_waiver: true
