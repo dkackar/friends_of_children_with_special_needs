@@ -6,8 +6,8 @@ active:
   location: White House
   registration_start: 2015-05-10 12:53:24
   registration_end: 2025-03-10 12:53:24
-  instructor_id: 1
-  coordinator_id: 1
+  instructor: instructor
+  coordinator: coordinator
   fees_in_cents: 1000
   comments: Please bring your cameras with you. You will want a picture of the White House
   lowest_age: 1
@@ -19,8 +19,8 @@ expired:
   location: White House
   registration_start: 2015-05-10 12:53:24
   registration_end: 2015-09-10 12:53:24
-  instructor_id: 1
-  coordinator_id: 1
+  instructor: instructor
+  coordinator: coordinator
   fees_in_cents: 1000
   comments: You can no longer register for this class
   lowest_age: 1

@@ -8,31 +8,31 @@ admin:
   is_admin: true
   email: admin@fcsn.org
   encrypted_password: <%= User.new.send(:password_digest, 'testing123') %>
-  person_id: 2
+  person: user_person
 
 coordinator:
   is_coordinator: true
   email: coordinator@fcsn.org
   encrypted_password: <%= User.new.send(:password_digest, 'testing123') %>
-  person_id: 2
+  person: user_person
 
 instructor:
   is_instructor: true
   email: instructor@fcsn.org
   encrypted_password: <%= User.new.send(:password_digest, 'testing123') %>
-  person_id: 2
+  person: user_person
 
 parent:
   is_parent: true
   email: parent@fcsn.org
   encrypted_password: <%= User.new.send(:password_digest, 'testing123') %>
-  person_id: 2
+  person: user_person
 
 multiple_roles:
   email: multiples_roles@fcsn.org
   encrypted_password: <%= User.new.send(:password_digest, 'testing123') %>
   is_coordinator: true
   is_parent: true
-  person_id: 2
+  person: user_person
 
 

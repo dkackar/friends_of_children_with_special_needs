@@ -6,7 +6,7 @@ class UserTest < ActiveSupport::TestCase
     test "test valid #{role}" do
       user = users(role)
       assert user.valid?
-      assert people(:user), user.person
+      assert people(:user_person), user.person
     end
   end
 end

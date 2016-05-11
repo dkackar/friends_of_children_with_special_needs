@@ -1,5 +1,5 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-course_date_one:
-  course: active
-  date: 2015-05-10
+emegency_contact_one:
+  person: user_person
+  student: student_one
