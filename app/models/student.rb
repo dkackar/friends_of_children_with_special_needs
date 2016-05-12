@@ -4,4 +4,9 @@ class Student < ActiveRecord::Base
 
   has_many :registrations
   has_many :courses, through: :registrations
+
+  accepts_nested_attributes_for :people,
+    :allow_destroy => true,
+    :reject_if     => :all_blank
+
 end
